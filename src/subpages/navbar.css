@@ -1,0 +1,24 @@
+.navbar{
+  background: #FFFFFF;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.navba{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  max-width: 1200px;
+  margin: auto;
+}
+.h1{
+  color: #ffffff;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

@@ -1,0 +1,29 @@
+.skills{
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 40px;
+}
+.skills h1{
+  color: #202020;
+  text-align: center;
+}
+.skills p{
+  color: #383838;
+  text-align: center;
+  font-size: 18px;
+}
+.skill{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.skil{
+  background: #f0f0f0;
+  padding: 30px;
+  font-size: 18px;
+  border-left: #e2e2e2 2px solid;
+  text-align: center;
+}

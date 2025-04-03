@@ -1,0 +1,60 @@
+.home1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 40px;
+}
+.home1 h3{
+  font-size: 18px;
+  color: #404dff;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.home1 h1{
+  text-align: center;
+  font-size: 50px;
+  line-height: 54px;
+  font-weight: bolder;
+  color: #202020;
+}
+.home1 p{
+  text-align: center;
+  color: #383838;
+}
+.btn{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.btn button{
+  background: #404dff;
+  border-radius: 12px;
+  color: #ffffff;
+  display: flex;
+  width: 150px;
+  letter-spacing: 1px;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px;
+}
+.btn button:last-child{
+  background: #f0f0f0;
+  color: #383838;
+}
+.icon{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.icon a{
+  color: #383838;
+  font-size: 24px;
+}
+.down{
+  margin-left: 5px;
+  font-size: 20px;
+}
