@@ -49,4 +49,8 @@
   .nav{
     display: none;
   }
+  .navba h1{
+    color: #181818;
+    font-size: 24px;
+  }
 }
