@@ -14,8 +14,8 @@
 .about1 img{
   width: 400px;
   height: 400px;
-  
-
+  object-fit: cover;
+  border-radius: 50%;
 }
 .about2{
   flex: 1;
@@ -58,5 +58,14 @@ hr{
     margin: 20px;
     flex-direction: column;
     gap: 20px;
+  }
+  .about1{
+    margin: 0px 20px;
+  }
+  .about1 img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
   }
 }
