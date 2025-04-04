@@ -3,7 +3,7 @@ import { Links } from '../dummyData'
 import { Link, useLocation } from 'react-router-dom'
 import "./responsive.css"
 
-const ResponsiveNavbar = () => {
+const ResponsiveNavbar = ({setOpen}) => {
   const location = useLocation()
   const pathname = location.pathname
   return (
@@ -12,7 +12,7 @@ const ResponsiveNavbar = () => {
         Links.map((link) => {
           return (
             <div className='nav_link'>
-              <Link to={link.href}><p className={link.href === pathname ? "active" : ""}>{link.label}</p></Link>
+              <Link to={link.href}><p onClick={() => setOpen (false)} className={link.href === pathname ? "active" : ""}>{link.label}</p></Link>
             </div>
           )
         })

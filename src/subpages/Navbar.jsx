@@ -15,6 +15,8 @@ const Navbar = () => {
         <Link to="/"><h1>WIXAD</h1></Link>
         {
           open ? (
+            <ResponsiveNavbar setOpen={setOpen} />
+        ):(
             <div className='nav'>
           {
             Links.map((link) => {
@@ -26,8 +28,6 @@ const Navbar = () => {
             })
           }
         </div>
-          ) : (
-              <ResponsiveNavbar />
           )
         }
         <button onClick={() => setOpen(!open)}><FaBarsStaggered /></button>
