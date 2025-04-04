@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./projects.css"
 import { myProjects } from '../dummyData'
 import { MdArrowOutward } from 'react-icons/md'
+import AOS from "aos"
+import "aos/dist/aos.css";
 
 const Projects = () => {
+   useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <div className='projects'>
       <h1>My Projects</h1>
@@ -11,7 +17,7 @@ const Projects = () => {
         {
           myProjects.map((project) => {
             return (
-              <div className="projet" key={project.id}>
+              <div data-aos="fade-right" className="projet" key={project.id}>
                 <img src={project.image} alt="" />
                 <div className='pro_details'>
                   <h3>{project.title}</h3>

@@ -58,3 +58,23 @@
   margin-left: 5px;
   font-size: 20px;
 }
+
+@media screen and (max-width: 500px) {
+  .home1 h1{
+    text-align: center;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: bolder;
+    color: #202020;
+  }
+  .home1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    margin: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+}

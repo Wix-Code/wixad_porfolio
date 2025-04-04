@@ -10,12 +10,14 @@ const Footer = () => {
       <div className='foot'>
         <h2>Start a project</h2>
         <p>Interested in making waves together? Let's connect and create something amazing.</p>
-        <div>
+        <div className='foot2'>
           {
             Links.map((link) => {
-              <div>
-                <Link to={link.href}><p>{link.label}</p></Link>
-              </div>
+              return (
+                <div className='foots'>
+                  <Link to={link.href}><span>{link.label}</span></Link>
+                </div>
+              )
             })
           }
         </div>
@@ -25,6 +27,7 @@ const Footer = () => {
           <a href="http://"><FaTwitter /></a>
           <a href="https://www.linkedin.com/in/ogbonna-wisdom-23958420b/"><FaLinkedin /></a>
         </div>
+        <p className='copy'>Copyright ©2025 ~ Ogbonna Ugochukwu (WIXAD) - Portfolio</p>
       </div>
     </div>
   )

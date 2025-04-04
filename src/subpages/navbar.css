@@ -14,11 +14,21 @@
   max-width: 1200px;
   margin: auto;
 }
-.h1{
-  color: #ffffff;
+.navba h1{
+  color: #181818;
 }
 .nav{
   display: flex;
   align-items: center;
   gap: 20px;
+}
+.nav_link p{
+  color: #383838;
+  transition: all 0.5s;
+}
+.nav_link p:hover{
+  color: #404dff;
+}
+.active{
+  color: #404dff;
 }

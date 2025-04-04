@@ -1,19 +1,21 @@
 import React from 'react'
 import { Links } from '../dummyData'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import "./navbar.css"
 
 const Navbar = () => {
+  const location = useLocation()
+  const pathname = location.pathname
   return (
     <div className='navbar'>
       <div className='navba'>
-        <h1>WIXAD</h1>
+        <Link to="/"><h1>WIXAD</h1></Link>
         <div className='nav'>
           {
             Links.map((link) => {
               return (
-                <div>
-                  <Link to={link.href}><p>{link.label}</p></Link>
+                <div className='nav_link'>
+                  <Link to={link.href}><p className={link.href === pathname ? "active" : ""}>{link.label}</p></Link>
                 </div>
               )
             })

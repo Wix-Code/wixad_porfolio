@@ -1,0 +1,33 @@
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #cddeff;
+  padding: 40px;
+  margin-top: 40px;
+}
+.foot{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.foot2{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.foots span{
+  color: #0e0e0e;
+}
+.foot h2{
+  color: #202020;
+}
+.foot p{
+  color: #707070;
+}
+.copy{
+  font-size: 13px;
+  color: #202020;
+}
