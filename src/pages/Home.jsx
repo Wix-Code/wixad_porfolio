@@ -4,6 +4,7 @@ import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 import { GoDownload } from 'react-icons/go'
 import About from './About'
 import Skills from './Skills'
+import Projects from './Projects'
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
         </div>
       </div>
       <About />
+      <Projects />
       <Skills />
     </div>
   )

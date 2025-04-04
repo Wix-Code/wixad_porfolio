@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div className='about'>
       <div className='about1'>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG69GBvjZsmCizMGXFTkxxMrM4Fs84FDc_jA&s" alt="" />
+        <img src="./pic/me.JPG" alt="" />
       </div>
       <div className='about2'>
         <h4>About me</h4>
