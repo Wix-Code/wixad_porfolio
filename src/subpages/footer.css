@@ -31,3 +31,16 @@
   font-size: 13px;
   color: #202020;
 }
+.foots .active{
+  color: #404dff;
+}
+
+@media screen and (max-width: 768px) {
+  .foot2{
+    flex-direction: column;
+    display: flex;
+  }
+  .foot p{
+    text-align: center;
+  }
+}

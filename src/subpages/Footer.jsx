@@ -1,10 +1,12 @@
 import React from 'react'
 import "./footer.css"
 import { Links } from '../dummyData'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 
 const Footer = () => {
+  const location = useLocation()
+  const pathname = location.pathname
   return (
     <div className='footer'>
       <div className='foot'>
@@ -15,7 +17,7 @@ const Footer = () => {
             Links.map((link) => {
               return (
                 <div className='foots'>
-                  <Link to={link.href}><span>{link.label}</span></Link>
+                  <Link to={link.href}><p className={link.href === pathname ? "active" : ""}>{link.label}</p></Link>
                 </div>
               )
             })

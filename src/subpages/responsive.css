@@ -1,0 +1,12 @@
+.responsive{
+  background: #FFFFFF;
+  position: absolute;
+  width: 100%;
+  top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

@@ -1,16 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Links } from '../dummyData'
 import { Link, useLocation } from 'react-router-dom'
 import "./navbar.css"
+import { FaBarsStaggered } from 'react-icons/fa6'
+import ResponsiveNavbar from './ResponsiveNavbar'
 
 const Navbar = () => {
   const location = useLocation()
   const pathname = location.pathname
+  const [open, setOpen] = useState(false)
   return (
     <div className='navbar'>
       <div className='navba'>
         <Link to="/"><h1>WIXAD</h1></Link>
-        <div className='nav'>
+        {
+          open ? (
+            <div className='nav'>
           {
             Links.map((link) => {
               return (
@@ -21,6 +26,11 @@ const Navbar = () => {
             })
           }
         </div>
+          ) : (
+              <ResponsiveNavbar />
+          )
+        }
+        <button onClick={() => setOpen(!open)}><FaBarsStaggered /></button>
       </div>
     </div>
   )
