@@ -23,6 +23,7 @@
 .skil{
   background: #f0f0f0;
   padding: 30px;
+  overflow: hidden;
   font-size: 18px;
   border-left: #e2e2e2 2px solid;
   text-align: center;
