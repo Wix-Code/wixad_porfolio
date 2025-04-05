@@ -32,17 +32,36 @@
 .btn button{
   background: #404dff;
   border-radius: 12px;
+  cursor: pointer;
   color: #ffffff;
   display: flex;
   width: 150px;
   letter-spacing: 1px;
+  transition: all 0.5s;
   font-size: 14px;
   align-items: center;
   justify-content: center;
   padding: 10px 0px;
 }
-.btn button:last-child{
+.btn button a{
+  cursor: pointer;
+  color: #ffffff;
+  display: flex;
+  letter-spacing: 1px;
+  transition: all 0.5s;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+}
+.btn button:hover{
+  background: #2330e9;
+}
+.btn a button:last-child{
   background: #f0f0f0;
+  color: #383838;
+}
+.btn a button:last-child:hover{
+  background: #e7e7e7;
   color: #383838;
 }
 .icon{

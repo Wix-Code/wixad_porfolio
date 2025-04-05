@@ -8,6 +8,7 @@ import Projects from './Projects'
 import "aos/dist/aos.css";
 import AOS from 'aos'
 import Contact from './Contact'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   useEffect(() => {
@@ -22,8 +23,8 @@ const Home = () => {
           Ogbonna Ugochukwu</h1>
         <p data-aos="fade-up">I Help businesses gain 20X more leads with fast loading, <br /> beautiful and uniquely designed websites.</p>
         <div data-aos="fade-up" className='btn'>
-          <button>Contact me <GoDownload className='down' /></button>
-          <button>Download CV <GoDownload className='down' /></button>
+          <Link to="/contact"><button>Contact me <GoDownload className='down' /></button></Link>
+          <button><a href='./pic/cv.pdf'>Download CV <GoDownload className='down' /></a></button>
         </div>
         <div data-aos="fade-up" className='icon'>
           <a href="https://gibhub.com/Wix-Code"><FaGithub /></a>
