@@ -24,7 +24,7 @@ const Projects = () => {
                   <p>{project.stack}</p>
                   <div className='pro_links'>
                     <a href={project.link} target="_blank" rel="noopener noreferrer">View Project <MdArrowOutward /></a>
-                    <a href={project.link} target="_blank" rel="noopener noreferrer">View GitHub Link <MdArrowOutward /></a>
+                    <a href={project.git} target="_blank" rel="noopener noreferrer">View GitHub Link <MdArrowOutward /></a>
                   </div>                 
                 </div>
               </div>

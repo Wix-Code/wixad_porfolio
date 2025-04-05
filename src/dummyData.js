@@ -29,6 +29,7 @@ export const myProjects = [
     stack: "Postgres, Express, React Js, Node Js, Prisma ",
     image: './pic/pic3.png',
     link: 'https://u-ride-rust.vercel.app/',
+    git: "https://github.com/Wix-Code/u-Ride"
   },
   {
     id: 2,
@@ -37,6 +38,7 @@ export const myProjects = [
     stack: "TypeScript, Mongo DB, Express Js, Node Js",
     image: './pic/pic.png',
     link: 'https://food-orderng.vercel.app/',
+    git: "https://github.com/Wix-Code/food-order"
   },
   {
     id: 3,
@@ -45,6 +47,7 @@ export const myProjects = [
     stack: "Mongo DB, Express Js, React Js, Node Js (MERN)",
     image: './pic/pic1.png',
     link: 'https://realtor-frontend-xi.vercel.app/',
+    git: "https://github.com/Wix-Code/realtor.ng"
   },
   {
     id: 4,
@@ -53,6 +56,7 @@ export const myProjects = [
     stack: "React Js",
     image: './pic/pic2.png',
     link: 'https://wix-edu-ng.vercel.app/',
+    git: "https://github.com/Wix-Code/school-site"
   },
   {
     id: 5,
@@ -61,6 +65,7 @@ export const myProjects = [
     stack: "React Js",
     image: './pic/pic4.png',
     link: 'https://real-estate-site-eta-seven.vercel.app/',
+    git: "https://github.com/Wix-Code/real-estate-site"
   },
   {
     id: 6,
