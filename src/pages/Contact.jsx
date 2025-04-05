@@ -16,7 +16,7 @@ const Contact = () => {
       <div className='contact'>
         <div className='cont'>
           <h2 data-aos="fade-up">I'm always active to turn your ideas into reality</h2>
-          <h3 data-aos="fade-up">If you can think it, <span>I will build it!</span></h3>
+          <h3 data-aos="fade-up">If you can think it, <span>I can build it!</span></h3>
           <p data-aos="fade-up">I’m always open to new opportunities and collaborations. Contact me via email, phone, or social media. I look forward to hearing from you soon.</p>
           <div data-aos="fade-up" className='href'>
             <a href="mailto:ogbonna428alex@gmail.com">Send mail <IoIosMail className='ref' /></a>

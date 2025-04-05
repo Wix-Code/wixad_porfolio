@@ -6,6 +6,7 @@ import { PiGraduationCapLight } from 'react-icons/pi'
 import { FaUserGraduate } from 'react-icons/fa'
 import AOS from "aos"
 import "aos/dist/aos.css";
+import { FaRegUser } from 'react-icons/fa6'
 
 const About = () => {
   useEffect(() => {
@@ -22,7 +23,7 @@ const About = () => {
         <h3>Unmatched Service Quality for Over 2 years</h3>
         <p>I specialize in creating websites that load quickly and are elegantly pleasing to the eyes. These websites provide smooth and enjoyable experiences for users and help turn visitors into customers.</p>
         <div className='icons'>
-          <FiPhoneCall className='call'/>
+          <FaRegUser className='call'/>
           <p>Ogbonna Ugochukwu Wisdom (WIXAD)</p>
         </div>
         <div className='icons'>
