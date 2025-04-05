@@ -13,8 +13,20 @@
   gap: 40px;
   align-items: center;
 }
-cont{
+.cont{
   flex: 1;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+.cont p{
+  color: #383838;
+}
+.cont h2{
+  color: #202020;
+}
+.cont h3 span{
+  color: #404dff;
 }
 .contact_img{
   flex: 1;
@@ -23,4 +35,55 @@ cont{
   width: 100%;
   height: 300px;
   object-fit: cover;
+}
+.href{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.href a{
+  width: 130px;
+  background: #dae634;
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: #ffffff;
+  font-size: 14px;
+}
+.href a:nth-child(2){
+  background: #36c978;
+}
+.ref{
+  font-size: 18px;
+}
+.href a:nth-child(3){
+  background: #21a85e;
+}
+
+@media screen and (max-width: 500px) {
+  .contact{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 20px;
+    justify-content: center;
+    text-align: center;
+  }
+  .cont{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .href{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
 }
