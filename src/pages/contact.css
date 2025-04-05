@@ -51,16 +51,26 @@
   justify-content: center;
   gap: 5px;
   color: #ffffff;
+  transition: all 0.5s;
   font-size: 14px;
+}
+.href a:hover{
+  background: #d1dd2c;
 }
 .href a:nth-child(2){
   background: #36c978;
+}
+.href a:nth-child(2):hover{
+  background: #2ebb6e;
 }
 .ref{
   font-size: 18px;
 }
 .href a:nth-child(3){
   background: #21a85e;
+}
+.href a:nth-child(3):hover{
+  background: #189450;
 }
 
 @media screen and (max-width: 500px) {
