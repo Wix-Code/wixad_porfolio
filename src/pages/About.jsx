@@ -19,7 +19,7 @@ const About = () => {
       </div>
       <div data-aos="fade-up" className='about2'>
         <h4>About me</h4>
-        <h3>Unmatched Service Quality for Over 5 years</h3>
+        <h3>Unmatched Service Quality for Over 2 years</h3>
         <p>I specialize in creating websites that load quickly and are elegantly pleasing to the eyes. These websites provide smooth and enjoyable experiences for users and help turn visitors into customers.</p>
         <div className='icons'>
           <FiPhoneCall className='call'/>
@@ -27,7 +27,7 @@ const About = () => {
         </div>
         <div className='icons'>
           <FiPhoneCall className='call'/>
-          <a href="tel:++2348126829146">+234 812 682 9146</a>
+          <a href="tel:+2348126829146">+234 812 682 9146</a>
         </div>
         <div className='icons'>
           <GoMail className='call'/>

@@ -7,6 +7,7 @@ import Skills from './Skills'
 import Projects from './Projects'
 import "aos/dist/aos.css";
 import AOS from 'aos'
+import Contact from './Contact'
 
 const Home = () => {
   useEffect(() => {
@@ -34,6 +35,7 @@ const Home = () => {
       <About />
       <Projects />
       <Skills />
+      <Contact />
     </div>
   )
 }
