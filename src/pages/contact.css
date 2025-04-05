@@ -11,6 +11,7 @@
 .contact{
   display: flex;
   gap: 40px;
+  overflow: hidden;
   align-items: center;
 }
 .cont{
