@@ -37,7 +37,7 @@
   display: none;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 900px){
   .navba button{
     display: flex;
     margin-right: 20px;
@@ -52,5 +52,18 @@
   .navba h1{
     color: #181818;
     font-size: 24px;
+  }
+}
+
+@media screen and (min-width : 901px) and (max-width: 1999px){
+  .navba h1{
+    margin-left: 20px;
+  }
+  .navba h1{
+    color: #181818;
+    font-size: 24px;
+  }
+  .nav{
+    margin-right: 20px;
   }
 }

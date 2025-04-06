@@ -53,11 +53,29 @@
   transform: translateX(2px);
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
   .project{
     display: grid;
     margin: 0px 20px;
     grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 850px) and (min-width : 600px) {
+  .project{
+    display: grid;
+    margin: 0px 20px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 1999px) and (min-width : 851px) {
+  .project{
+    display: grid;
+    margin: 0px 20px;
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
 }

@@ -52,7 +52,7 @@ hr{
   background: #383838;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   .about{
     display: flex;
     margin-top: 40px;
@@ -68,5 +68,15 @@ hr{
     height: 300px;
     object-fit: cover;
     border-radius: 50%;
+  }
+}
+
+@media screen and (min-width : 701px) and (max-width: 1099px) {
+  .about{
+    margin-top: 40px;
+    margin: 20px;
+  }
+  .about1{
+    margin: 0px 20px;
   }
 }
