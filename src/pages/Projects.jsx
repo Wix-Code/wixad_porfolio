@@ -21,6 +21,7 @@ const Projects = () => {
                 <img src={project.image} alt="" />
                 <div className='pro_details'>
                   <h3>{project.title}</h3>
+                  <h2>{project.description}</h2>
                   <p>{project.stack}</p>
                   <div className='pro_links'>
                     <a href={project.link} target="_blank" rel="noopener noreferrer">View Project <MdArrowOutward /></a>
