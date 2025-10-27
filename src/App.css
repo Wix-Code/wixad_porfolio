@@ -11,6 +11,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   background: #fcfcfc;
+  text-decoration: underline;
 }
 a{
   list-style: none;
