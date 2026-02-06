@@ -24,7 +24,7 @@ const Home = () => {
         <p data-aos="fade-up">I Help businesses gain 20X more leads with fast loading, <br /> beautiful and uniquely designed websites.</p>
         <div data-aos="fade-up" className='btn'>
           <Link to="/contact"><button>Contact me <GoDownload className='down' /></button></Link>
-          <button><a href='./pic/cv.pdf'>Download CV <GoDownload className='down' /></a></button>
+          <button><a href='./pic/frontendcv.pdf'>Download CV <GoDownload className='down' /></a></button>
         </div>
         <div data-aos="fade-up" className='icon'>
           <a href="https://gibhub.com/Wix-Code"><FaGithub /></a>
